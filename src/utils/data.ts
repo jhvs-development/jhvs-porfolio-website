@@ -1,8 +1,8 @@
-import { PersonalInfo, Experience, ServicesData, ProjectsData } from '@/types'
-import personalData from '@/data/personal.json'
 import experienceData from '@/data/experience.json'
-import servicesData from '@/data/services.json'
+import personalData from '@/data/personal.json'
 import projectsData from '@/data/projects.json'
+import servicesData from '@/data/services.json'
+import { Experience, PersonalInfo, ProjectsData, ServicesData } from '@/types'
 
 export async function getPersonalData(): Promise<PersonalInfo> {
   return personalData as PersonalInfo

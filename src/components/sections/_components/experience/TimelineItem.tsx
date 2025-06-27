@@ -1,8 +1,8 @@
 'use client'
 
 import { ExperienceItem } from '@/types'
-import { TimelineDot } from './TimelineDot'
 import { ExperienceCard } from './ExperienceCard'
+import { TimelineDot } from './TimelineDot'
 
 interface TimelineItemProps {
   experience: ExperienceItem
@@ -53,7 +53,7 @@ export const TimelineItem = ({
         <div className="flex-shrink-0 flex justify-center items-start pt-8 relative">
           <TimelineDot isActive={isActive} />
           {/* Mobile timeline line */}
-          <div className="absolute top-14 left-1/2 transform -translate-x-1/2 w-0.5 h-16 bg-gradient-to-b from-primary-blue to-secondary-blue"></div>
+          <div className="absolute top-14 left-1/2 transform -translate-x-1/2 w-0.5 h-16 bg-gradient-to-b from-primary-blue to-secondary-blue" />
         </div>
 
         {/* Card */}

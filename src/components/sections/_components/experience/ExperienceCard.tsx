@@ -73,7 +73,7 @@ export const ExperienceCard = ({
             }`}
           >
             <div className="flex flex-col gap-2">
-              <div className="border-t border-border-color/30"></div>
+              <div className="border-t border-border-color/30" />
               <p className="text-gray-300 text-md">{experience.description}</p>
 
               {/* Highlights */}

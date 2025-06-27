@@ -25,7 +25,7 @@ export const TechStackSection = ({ data }: TechStackSectionProps) => {
             <span className="text-primary-blue">&#123;</span>
           </h2>
           <p className="text-gray-400 text-lg md:text-xl max-w-7xl leading-relaxed">
-            /* Technologies and tools I use to build amazing applications */
+            {'/* Technologies and tools I use to build amazing applications */'}
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export const TechStackSection = ({ data }: TechStackSectionProps) => {
                           <div
                             className="h-full bg-primary-blue rounded-full transition-all duration-300"
                             style={{ width: `${tech.level}%` }}
-                          ></div>
+                          />
                         </div>
                         <span className="text-xs text-gray-400 min-w-10 text-right">
                           {tech.level}%

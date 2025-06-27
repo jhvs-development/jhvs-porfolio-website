@@ -1,8 +1,8 @@
 'use client'
 
 import { Experience } from '@/types'
-import { TimelineLine } from './_components/experience/TimelineLine'
 import { TimelineItem } from './_components/experience/TimelineItem'
+import { TimelineLine } from './_components/experience/TimelineLine'
 
 interface ExperienceSectionProps {
   data: Experience
@@ -22,7 +22,7 @@ export const ExperienceSection = ({ data }: ExperienceSectionProps) => {
             <span className="text-primary-blue">/&gt;</span>
           </h2>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl leading-relaxed">
-            /* My professional journey in software development */
+            {'/* My professional journey in software development */'}
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">

@@ -1,7 +1,7 @@
 'use client'
 
-import { useState } from 'react'
 import { ServicesData } from '@/types'
+import { useState } from 'react'
 
 interface ServicesSectionProps {
   data: ServicesData
@@ -25,7 +25,9 @@ export const ServicesSection = ({ data }: ServicesSectionProps) => {
             <span className="text-primary-blue">&#123;</span>
           </h2>
           <p className="text-gray-400 text-lg md:text-xl max-w-7xl leading-relaxed">
-            /* Full-stack development services to bring your ideas to life */
+            {
+              '/* Full-stack development services to bring your ideas to life */'
+            }
           </p>
         </div>
 

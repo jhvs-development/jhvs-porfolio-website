@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
 import { PersonalInfo } from '@/types'
+import { useState } from 'react'
+import { ContactForm } from './_components/contact/ContactForm'
 import { ContactInfo } from './_components/contact/ContactInfo'
 import { SocialLinks } from './_components/contact/SocialLinks'
-import { ContactForm } from './_components/contact/ContactForm'
 
 interface ContactSectionProps {
   data: PersonalInfo
