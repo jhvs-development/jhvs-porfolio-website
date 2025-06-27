@@ -6,13 +6,17 @@ interface TimelineLineProps {
 
 export const TimelineLine = ({ className = '' }: TimelineLineProps) => {
   return (
-    <div
-      className={`w-0.5 h-full bg-gradient-to-b from-primary-blue via-secondary-blue to-primary-blue relative z-10 ${className}`}
-    >
-      {/* Optional: Add animated dots along the line */}
-      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-primary-blue rounded-full opacity-60" />
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-secondary-blue rounded-full opacity-40" />
-      <div className="absolute top-3/4 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-primary-blue rounded-full opacity-60" />
+    <div className={`w-1 h-full relative ${className}`}>
+      {/* Main vertical line - solid and visible */}
+      <div
+        className="w-full h-full rounded-full"
+        style={{
+          background:
+            'linear-gradient(180deg, #3B82F6 0%, #1E40AF 50%, #3B82F6 100%)',
+          boxShadow:
+            '0 0 8px rgba(59, 130, 246, 0.6), 0 0 16px rgba(59, 130, 246, 0.4), 0 0 24px rgba(59, 130, 246, 0.2)',
+        }}
+      />
     </div>
   )
 }
