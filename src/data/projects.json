@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "id": "mayzing-platform",
+      "title": "Mayzing E-commerce Platform",
+      "description": "Complete redesign and migration of a print-on-demand e-commerce platform from monolith to microservices architecture.",
+      "image": "/projects/mayzing_logo.jpeg",
+      "category": "Full Stack",
+      "status": "ongoing",
+      "featured": true,
+      "technologies": [
+        "React",
+        "Next.js",
+        "NestJS",
+        "GraphQL",
+        "Docker",
+        "AWS"
+      ],
+      "highlights": [
+        "Built from scratch with modern React and TypeScript",
+        "Microservices architecture with GraphQL communication",
+        "Real-time order processing and tracking",
+        "Integrated payment systems and shipping APIs"
+      ],
+      "links": {
+        "live": "https://mayzing.com",
+        "private": true
+      }
+    },
+    {
+      "id": "portfolio-website",
+      "title": "JHVS Development Portfolio",
+      "description": "Personal portfolio website built with Next.js 15, featuring dynamic content, VSCode-inspired design, and modern animations.",
+      "image": "/logo.svg",
+      "category": "Frontend",
+      "status": "completed",
+      "featured": true,
+      "technologies": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS"],
+      "highlights": [
+        "Server-side rendering with Next.js 15",
+        "Dynamic content from JSON configuration",
+        "VSCode-inspired dark theme design",
+        "Responsive and accessible interface"
+      ],
+      "links": {
+        "live": "https://jhvs.dev",
+        "github": "https://github.com/jhvs-development/jhvs-porfolio-website"
+      }
+    },
+    {
+      "id": "tv-streaming-app",
+      "title": "Belgian TV Streaming Platform",
+      "description": "Enhanced TV box application for major Belgian telecommunications company, integrating Netflix and Disney+ services.",
+      "image": "/projects/proximus_logo.jpeg",
+      "category": "Full Stack",
+      "status": "completed",
+      "featured": true,
+      "technologies": ["Java", "Spring", "JavaScript", "GraphQL", "Oracle"],
+      "highlights": [
+        "Migrated from Java 6 to 8 and Spring 3 to 5",
+        "Integrated major streaming services",
+        "Improved code quality with SOLID principles",
+        "Enhanced performance and maintainability"
+      ],
+      "links": {
+        "live": "https://www.proximus.be/en/id_cr_android_tv_decoder/personal/equipment/tv-equipment/android-tv-decoder.html",
+        "private": true
+      }
+    },
+    {
+      "id": "mobile-hr-platform",
+      "title": "Cross-platform HR Applications",
+      "description": "Suite of mobile and web applications for HR management using Ionic framework with Firebase backend.",
+      "image": "/projects/devoteam_logo.jpeg",
+      "category": "Mobile",
+      "status": "completed",
+      "featured": false,
+      "technologies": ["Ionic", "Java", "MongoDB", "Firebase", "AWS EC2"],
+      "highlights": [
+        "Cross-platform mobile applications",
+        "Real-time data synchronization",
+        "Firebase integration for backend services",
+        "Deployed on AWS infrastructure"
+      ],
+      "links": {
+        "discontinued": true,
+        "private": true
+      }
+    },
+    {
+      "id": "invoice-management-mvp",
+      "title": "Email Invoice Management System",
+      "description": "MVP application for automated email invoice processing with machine learning capabilities for document scanning.",
+      "image": "/projects/utilus_logo.jpeg",
+      "category": "AI/ML",
+      "status": "completed",
+      "featured": false,
+      "technologies": [
+        "Java",
+        "Angular",
+        "PostgreSQL",
+        "AWS",
+        "Machine Learning"
+      ],
+      "highlights": [
+        "Automated email processing and parsing",
+        "ML-powered document scanning and recognition",
+        "Cloud-based architecture on AWS",
+        "Angular frontend with responsive design"
+      ],
+      "links": {
+        "discontinued": true,
+        "private": true
+      }
+    }
+  ],
+  "categories": ["Full Stack", "Frontend", "Backend", "Mobile", "AI/ML"]
+}

@@ -1,0 +1,133 @@
+{
+  "experience": [
+    {
+      "id": "mayzing",
+      "company": "Mayzing",
+      "role": "Senior Full Stack Engineer",
+      "period": "May 2021 - Present (4+ years)",
+      "location": "Remote, Brazil",
+      "type": "current",
+      "description": "Leading full-stack development for a print-on-demand e-commerce platform, transitioning from monolith to microservices architecture.",
+      "highlights": [
+        "Implemented features for legacy e-commerce platform using React in monolith architecture",
+        "Led discovery initiatives and PoCs for new platform architecture solutions",
+        "Built new platform from scratch with React (NextJS) frontend and Material UI",
+        "Developed microservices using Node.JS (NestJS) with GraphQL network layer",
+        "Part of Emergency Response Team (ERT) with on-call responsibilities",
+        "Implemented Rest APIs for inter-microservices and BFF communication"
+      ],
+      "technologies": [
+        "React",
+        "NextJS",
+        "Material UI",
+        "Jest",
+        "Node.JS",
+        "NestJS",
+        "GraphQL",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "id": "devoteam-3",
+      "company": "Devoteam",
+      "role": "Full Stack Engineer",
+      "period": "September 2019 - May 2021 (1 year 9 months)",
+      "location": "Lisbon, Portugal",
+      "type": "past",
+      "description": "Maintained and enhanced TV box application for a leading Belgian telecommunications company.",
+      "highlights": [
+        "Refactored codebase improving overall quality with SOLID principles",
+        "Integrated new subscription services (Netflix, Disney+) into TV box application",
+        "Implemented new GraphQL API architecture",
+        "Migrated entire application from Java 6 to 8 and Spring 3 to 5",
+        "Enhanced system performance and maintainability"
+      ],
+      "technologies": [
+        "Java 6/8",
+        "Spring 3/5",
+        "JavaScript",
+        "OracleSQL",
+        "GraphQL",
+        "SOAP/REST",
+        "Maven",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "devoteam-2",
+      "company": "Devoteam",
+      "role": "Mobile & Web Full Stack Engineer",
+      "period": "June 2019 - August 2019 (3 months)",
+      "location": "Lisbon, Portugal",
+      "type": "past",
+      "description": "Outsourced to HR consulting firm for maintaining cross-platform web/mobile applications.",
+      "highlights": [
+        "Maintained and sustained multiple cross-platform applications built with Ionic",
+        "Worked with hybrid mobile development technologies",
+        "Integrated Firebase services for backend functionality",
+        "Deployed applications on AWS EC2 infrastructure"
+      ],
+      "technologies": [
+        "Java 8",
+        "Ionic 4",
+        "MongoDB",
+        "Wildfly",
+        "Gradle",
+        "Firebase",
+        "SASS",
+        "AWS EC2"
+      ]
+    },
+    {
+      "id": "devoteam-1",
+      "company": "Devoteam",
+      "role": "Full Stack Engineer",
+      "period": "February 2019 - June 2019 (5 months)",
+      "location": "Lisbon, Portugal",
+      "type": "past",
+      "description": "Worked on two nearshore projects for Netherlands software house, building MVP applications from scratch.",
+      "highlights": [
+        "Developed MVP web application for email invoice management",
+        "Built MVP application with ML contract scanning and label detection",
+        "Implemented full-stack solutions including databases and AWS services",
+        "Worked with modern Spring ecosystem and Angular framework",
+        "Deployed applications using Docker and Kubernetes"
+      ],
+      "technologies": [
+        "Java 11",
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "cgi",
+      "company": "CGI",
+      "role": "Java Developer Trainee",
+      "period": "September 2018 - February 2019 (6 months)",
+      "location": "Lisbon, Portugal",
+      "type": "past",
+      "description": "Graduate trainee program focusing on Java enterprise development and modern web technologies.",
+      "highlights": [
+        "Completed intensive Java enterprise development training",
+        "Built web applications using Spring Framework",
+        "Learned enterprise software development best practices",
+        "Worked on client projects as part of training program"
+      ],
+      "technologies": [
+        "Java 8",
+        "Spring Framework",
+        "Hibernate",
+        "MySQL",
+        "HTML/CSS",
+        "JavaScript",
+        "Git"
+      ]
+    }
+  ]
+}

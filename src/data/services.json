@@ -1,0 +1,167 @@
+{
+  "services": [
+    {
+      "id": "fullstack-development",
+      "title": "Full Stack Development",
+      "description": "End-to-end web application development using modern JavaScript technologies. From React frontends to Node.js backends with database integration.",
+      "icon": "🚀",
+      "features": [
+        "React & Next.js Applications",
+        "Node.js & Express APIs",
+        "Database Design & Integration",
+        "Authentication & Security",
+        "Performance Optimization"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "microservices-architecture",
+      "title": "Microservices Architecture",
+      "description": "Design and implement scalable microservices using modern patterns and technologies. GraphQL APIs, containerization, and cloud deployment.",
+      "icon": "🏗️",
+      "features": [
+        "Microservices Design",
+        "GraphQL API Development",
+        "Docker Containerization",
+        "AWS Cloud Deployment",
+        "Service Mesh Implementation"
+      ],
+      "technologies": [
+        "NestJS",
+        "GraphQL",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Redis"
+      ]
+    },
+    {
+      "id": "frontend-development",
+      "title": "Frontend Development",
+      "description": "Modern, responsive, and performant frontend applications with focus on user experience and accessibility. PWA capabilities included.",
+      "icon": "💻",
+      "features": [
+        "Responsive Web Design",
+        "Progressive Web Apps",
+        "Component Libraries",
+        "State Management",
+        "Performance Optimization"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Material UI",
+        "Redux",
+        "Zustand"
+      ]
+    },
+    {
+      "id": "api-development",
+      "title": "API Development",
+      "description": "RESTful and GraphQL APIs with proper documentation, testing, and security. Integration with third-party services and payment systems.",
+      "icon": "🔗",
+      "features": [
+        "RESTful API Design",
+        "GraphQL Implementation",
+        "API Documentation",
+        "Third-party Integrations",
+        "Security Best Practices"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "NestJS",
+        "GraphQL",
+        "Swagger",
+        "JWT"
+      ]
+    },
+    {
+      "id": "cloud-deployment",
+      "title": "Cloud & DevOps",
+      "description": "Cloud infrastructure setup, CI/CD pipelines, monitoring, and deployment automation. Focus on AWS services and containerization.",
+      "icon": "☁️",
+      "features": [
+        "AWS Infrastructure",
+        "CI/CD Pipelines",
+        "Container Orchestration",
+        "Monitoring & Logging",
+        "Auto-scaling Solutions"
+      ],
+      "technologies": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitHub Actions",
+        "Terraform"
+      ]
+    },
+    {
+      "id": "consulting",
+      "title": "Technical Consulting",
+      "description": "Architecture reviews, code audits, performance optimization, and technology stack recommendations for your development team.",
+      "icon": "🎯",
+      "features": [
+        "Architecture Design",
+        "Code Review & Audit",
+        "Performance Analysis",
+        "Technology Selection",
+        "Team Mentoring"
+      ],
+      "technologies": [
+        "System Design",
+        "Code Quality",
+        "Best Practices",
+        "Mentoring",
+        "Documentation"
+      ]
+    }
+  ],
+  "techStack": {
+    "frontend": [
+      { "name": "React", "level": 95, "category": "framework" },
+      { "name": "Next.js", "level": 90, "category": "framework" },
+      { "name": "TypeScript", "level": 90, "category": "language" },
+      { "name": "Tailwind CSS", "level": 85, "category": "styling" },
+      { "name": "Material UI", "level": 88, "category": "library" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 92, "category": "runtime" },
+      { "name": "NestJS", "level": 85, "category": "framework" },
+      { "name": "Java", "level": 90, "category": "language" },
+      { "name": "Spring", "level": 88, "category": "framework" },
+      { "name": "Express", "level": 90, "category": "framework" },
+      { "name": "GraphQL", "level": 87, "category": "api" },
+      { "name": "REST APIs", "level": 95, "category": "api" }
+    ],
+    "database": [
+      { "name": "PostgreSQL", "level": 85, "category": "sql" },
+      { "name": "MongoDB", "level": 82, "category": "nosql" },
+      { "name": "OracleSQL", "level": 80, "category": "sql" },
+      { "name": "MySQL", "level": 83, "category": "sql" },
+      { "name": "Redis", "level": 80, "category": "cache" },
+      { "name": "ElasticSearch", "level": 75, "category": "search" }
+    ],
+    "devops": [
+      { "name": "Docker", "level": 85, "category": "container" },
+      { "name": "AWS", "level": 80, "category": "cloud" },
+      { "name": "Kubernetes", "level": 75, "category": "orchestration" },
+      { "name": "Jenkins", "level": 78, "category": "ci-cd" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 95, "category": "version-control" },
+      { "name": "Jest", "level": 85, "category": "testing" },
+      { "name": "Webpack", "level": 80, "category": "build" },
+      { "name": "VS Code", "level": 98, "category": "editor" }
+    ]
+  }
+}

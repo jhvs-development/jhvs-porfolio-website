@@ -1,0 +1,33 @@
+{
+  "personal": {
+    "name": "Jhordeym Santos",
+    "fullName": "Jhordeym Santos",
+    "title": "👨🏻‍💻 JhVS Development | Full Stack Engineer 💡",
+    "location": "[\"Brasil 🇧🇷\", \"Portugal 🇵🇹\", \"🌎\"]",
+    "bio": "Hi, I’m a full-stack web developer with over 7 years of experience turning complex ideas into clean, high-performing web applications.\nI specialize in building fast, responsive websites and scalable backend systems using modern tools like React, Next.js, and Node.js.\nWhether you're launching a product or upgrading your platform, I focus on creating solutions that are reliable, maintainable, and tailored to your business goals.",
+    "avatar": "/images/profile.jpg",
+    "email": "jhordeym@gmail.com",
+    "phone": "+55 (62) 99414-7348",
+    "github": "https://github.com/jhordeym",
+    "linkedin": "https://www.linkedin.com/in/jhordeym-santos",
+    "website": "https://jhvs.dev"
+  },
+  "stats": [
+    {
+      "number": "7+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "10+",
+      "label": "Projects Completed"
+    },
+    {
+      "number": "15+",
+      "label": "Technologies Mastered"
+    },
+    {
+      "number": "4",
+      "label": "Languages Spoken"
+    }
+  ]
+}
