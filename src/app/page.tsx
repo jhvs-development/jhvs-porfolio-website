@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer'
 import { Navigation } from '@/components/Navigation'
 import { Sections } from '@/components/Sections'
 import {
@@ -26,6 +27,7 @@ export default async function Home() {
         services={services}
         techStack={techStack}
       />
+      <Footer />
     </div>
   )
 }

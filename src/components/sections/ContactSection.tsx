@@ -14,7 +14,11 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
   const [isCollapsed, setIsCollapsed] = useState(false)
 
   return (
-    <section id="contact" className="flex items-center justify-center relative">
+    <section
+      id="contact"
+      className="flex items-center justify-center relative"
+      style={{ padding: '2rem 0' }}
+    >
       <div className="flex flex-col items-center max-w-7xl gap-8">
         <div className="flex flex-col items-center text-center gap-1 w-full">
           <h2
@@ -55,7 +59,7 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
         )}
 
         {/* Return statement */}
-        <div className="flex justify-center items-center space-x-4 mt-16">
+        <div className="flex justify-center items-center">
           <p>
             <span className="text-primary-blue text-xl md:text-2xl font-mono">
               return
