@@ -5,7 +5,7 @@ import { Logo } from './Logo'
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false)
-  const [activeSection, setActiveSection] = useState('')
+  const [activeSection, setActiveSection] = useState('hero')
 
   useEffect(() => {
     const handleScroll = () => {
