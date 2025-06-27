@@ -1,40 +1,40 @@
 {
   "techStack": {
     "frontend": [
-      { "name": "React", "level": 95, "category": "framework" },
-      { "name": "Next.js", "level": 90, "category": "framework" },
-      { "name": "TypeScript", "level": 90, "category": "language" },
-      { "name": "Tailwind CSS", "level": 85, "category": "styling" },
-      { "name": "Material UI", "level": 88, "category": "library" }
+      { "name": "React", "level": 95, "category": "framework", "url": "https://reactjs.org" },
+      { "name": "Next.js", "level": 90, "category": "framework", "url": "https://nextjs.org" },
+      { "name": "TypeScript", "level": 90, "category": "language", "url": "https://www.typescriptlang.org" },
+      { "name": "Tailwind CSS", "level": 85, "category": "styling", "url": "https://tailwindcss.com" },
+      { "name": "Material UI", "level": 88, "category": "library", "url": "https://mui.com" }
     ],
     "backend": [
-      { "name": "Node.js", "level": 92, "category": "runtime" },
-      { "name": "NestJS", "level": 85, "category": "framework" },
-      { "name": "Java", "level": 90, "category": "language" },
-      { "name": "Spring", "level": 88, "category": "framework" },
-      { "name": "Express", "level": 90, "category": "framework" },
-      { "name": "GraphQL", "level": 87, "category": "api" },
-      { "name": "REST APIs", "level": 95, "category": "api" }
+      { "name": "Node.js", "level": 92, "category": "runtime", "url": "https://nodejs.org" },
+      { "name": "NestJS", "level": 85, "category": "framework", "url": "https://nestjs.com" },
+      { "name": "Java", "level": 90, "category": "language", "url": "https://www.oracle.com/java" },
+      { "name": "Spring", "level": 88, "category": "framework", "url": "https://spring.io" },
+      { "name": "Express", "level": 90, "category": "framework", "url": "https://expressjs.com" },
+      { "name": "GraphQL", "level": 87, "category": "api", "url": "https://graphql.org" },
+      { "name": "REST APIs", "level": 95, "category": "api", "url": "https://restfulapi.net" }
     ],
     "database": [
-      { "name": "PostgreSQL", "level": 85, "category": "sql" },
-      { "name": "MongoDB", "level": 82, "category": "nosql" },
-      { "name": "OracleSQL", "level": 80, "category": "sql" },
-      { "name": "MySQL", "level": 83, "category": "sql" },
-      { "name": "Redis", "level": 80, "category": "cache" },
-      { "name": "ElasticSearch", "level": 75, "category": "search" }
+      { "name": "PostgreSQL", "level": 85, "category": "sql", "url": "https://www.postgresql.org" },
+      { "name": "MongoDB", "level": 82, "category": "nosql", "url": "https://www.mongodb.com" },
+      { "name": "OracleSQL", "level": 80, "category": "sql", "url": "https://www.oracle.com/database" },
+      { "name": "MySQL", "level": 83, "category": "sql", "url": "https://www.mysql.com" },
+      { "name": "Redis", "level": 80, "category": "cache", "url": "https://redis.io" },
+      { "name": "ElasticSearch", "level": 75, "category": "search", "url": "https://www.elastic.co" }
     ],
     "devops": [
-      { "name": "Docker", "level": 85, "category": "container" },
-      { "name": "AWS", "level": 80, "category": "cloud" },
-      { "name": "Kubernetes", "level": 75, "category": "orchestration" },
-      { "name": "Jenkins", "level": 78, "category": "ci-cd" }
+      { "name": "Docker", "level": 85, "category": "container", "url": "https://www.docker.com" },
+      { "name": "AWS", "level": 80, "category": "cloud", "url": "https://aws.amazon.com" },
+      { "name": "Kubernetes", "level": 75, "category": "orchestration", "url": "https://kubernetes.io" },
+      { "name": "Jenkins", "level": 78, "category": "ci-cd", "url": "https://www.jenkins.io" }
     ],
     "tools": [
-      { "name": "Git", "level": 95, "category": "version-control" },
-      { "name": "Jest", "level": 85, "category": "testing" },
-      { "name": "Webpack", "level": 80, "category": "build" },
-      { "name": "VS Code", "level": 98, "category": "editor" }
+      { "name": "Git", "level": 95, "category": "version-control", "url": "https://git-scm.com" },
+      { "name": "Jest", "level": 85, "category": "testing", "url": "https://jestjs.io" },
+      { "name": "Webpack", "level": 80, "category": "build", "url": "https://webpack.js.org" },
+      { "name": "VS Code", "level": 98, "category": "editor", "url": "https://code.visualstudio.com" }
     ]
   }
 }

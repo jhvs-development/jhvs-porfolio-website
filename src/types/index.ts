@@ -70,6 +70,7 @@ export interface TechItem {
   name: string
   level: number
   category: string
+  url: string
 }
 
 // Projects Types
