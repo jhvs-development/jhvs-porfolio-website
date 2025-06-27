@@ -20,11 +20,12 @@ export const Navigation = () => {
         'projects',
         'contact',
       ]
+      const navHeight = 80
       const current = sections.find(section => {
         const element = document.getElementById(section)
         if (element) {
           const rect = element.getBoundingClientRect()
-          return rect.top <= 100 && rect.bottom >= 100
+          return rect.top <= navHeight + 20 && rect.bottom >= navHeight + 20
         }
         return false
       })
@@ -41,7 +42,12 @@ export const Navigation = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      const navHeight = 80 // Approximate height of the navigation bar
+      const elementPosition = element.offsetTop - navHeight
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth',
+      })
     }
   }
 

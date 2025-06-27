@@ -13,6 +13,7 @@ import { HeroSection } from './sections/HeroSection'
 import { ProjectsSection } from './sections/ProjectsSection'
 import { ServicesSection } from './sections/ServicesSection'
 import { TechStackSection } from './sections/TechStackSection'
+import { SectionSeparator } from './SectionSeparator'
 
 interface SectionsProps {
   personalInfo: PersonalInfo
@@ -34,23 +35,23 @@ export const Sections = ({
       <section id="hero" className="flex">
         <HeroSection data={personalInfo} />
       </section>
-      <div className="section-separator" />
+      <SectionSeparator />
       <section id="experience" className="flex">
         <ExperienceSection data={experience} />
       </section>
-      <div className="section-separator" />
+      <SectionSeparator />
       <section id="services" className="flex">
         <ServicesSection data={services} />
       </section>
-      <div className="section-separator" />
+      <SectionSeparator />
       <section id="tech-stack" className="flex">
         <TechStackSection data={techStack.techStack} />
       </section>
-      <div className="section-separator" />
+      <SectionSeparator />
       <section id="projects" className="flex">
         <ProjectsSection data={projects} />
       </section>
-      <div className="section-separator" />
+      <SectionSeparator />
       <section id="contact" className="flex">
         <ContactSection data={personalInfo} />
       </section>
