@@ -3,7 +3,7 @@
 import { ProjectsData } from '@/types'
 import { useState } from 'react'
 import { CategoryFilter } from './_components/projects/CategoryFilter'
-import { ProjectsGrid } from './_components/projects/ProjectsGrid'
+import { ProjectsCarousel } from './_components/projects/ProjectsCarousel'
 import { ProjectsHeader } from './_components/projects/ProjectsHeader'
 
 interface ProjectsSectionProps {
@@ -43,7 +43,7 @@ export const ProjectsSection = ({ data }: ProjectsSectionProps) => {
               onCategoryChange={setActiveCategory}
             />
 
-            <ProjectsGrid projects={filteredProjects} />
+            <ProjectsCarousel projects={filteredProjects} />
           </>
         )}
 
