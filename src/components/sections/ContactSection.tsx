@@ -16,10 +16,10 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center relative"
+      className="flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-16 sm:py-20"
       style={{ padding: '2rem 0' }}
     >
-      <div className="flex flex-col items-center max-w-7xl gap-8">
+      <div className="flex flex-col items-center max-w-7xl gap-6 sm:gap-8">
         <div className="flex flex-col items-center text-center gap-1 w-full">
           <h2
             className="text-4xl md:text-5xl lg:text-6xl font-bold cursor-pointer hover:text-white transition-colors"

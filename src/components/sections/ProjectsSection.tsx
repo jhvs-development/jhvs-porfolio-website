@@ -22,9 +22,9 @@ export const ProjectsSection = ({ data }: ProjectsSectionProps) => {
   return (
     <section
       id="projects"
-      className="flex items-center justify-center relative"
+      className="flex items-center justify-center relative min-h-screen px-4 sm:px-6 lg:px-8 py-16 sm:py-20 w-full"
     >
-      <div className="flex flex-col items-center max-w-7xl gap-8">
+      <div className="flex flex-col items-center max-w-7xl w-full gap-6 sm:gap-8">
         <ProjectsHeader onToggleCollapse={() => setIsCollapsed(!isCollapsed)} />
 
         {/* Collapsed state */}

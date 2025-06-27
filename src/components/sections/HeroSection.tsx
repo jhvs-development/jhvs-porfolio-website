@@ -13,18 +13,12 @@ interface HeroSectionProps {
 
 export const HeroSection = ({ data }: HeroSectionProps) => {
   return (
-    <section className="flex items-center justify-center relative min-h-screen">
-      <div className="flex flex-col justify-center items-center gap-8 max-w-7xl fade-in">
+    <section className="flex items-center justify-center relative min-h-screen px-4 sm:px-6 lg:px-8 py-16 sm:py-20 w-full">
+      <div className="flex flex-col justify-center items-center gap-6 sm:gap-8 max-w-7xl w-full fade-in">
         {/* Profile Image + Intro Text */}
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
-          <ProfileImage 
-            name={data.personal.name} 
-            imageSrc="/pp_wedding.jpeg" 
-          />
-          <IntroText 
-            name={data.personal.name} 
-            title={data.personal.title} 
-          />
+          <ProfileImage name={data.personal.name} imageSrc="/pp_wedding.jpeg" />
+          <IntroText name={data.personal.name} title={data.personal.title} />
         </div>
 
         {/* Bio */}
