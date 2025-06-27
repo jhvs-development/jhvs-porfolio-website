@@ -18,12 +18,14 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
       <div className="flex flex-col items-center max-w-7xl gap-8">
         <div className="flex flex-col items-center text-center gap-1 w-full">
           <h2
-            className="text-4xl md:text-5xl lg:text-6xl font-bold cursor-pointer hover:text-primary-blue transition-colors"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold cursor-pointer hover:text-white transition-colors"
             onClick={() => setIsCollapsed(!isCollapsed)}
           >
-            <span className="text-gray-400">await</span>{' '}
-            <span className="text-primary-blue">getInTouch</span>(
-            <span className="text-accent-green">client</span>);
+            <span className="text-primary-blue">async</span>{' '}
+            <span className="text-white">getInTouch</span>
+            <span className="text-primary-blue">(</span>
+            <span className="text-accent-green">client</span>
+            <span className="text-primary-blue">);</span>
           </h2>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl leading-relaxed">
             Ready to start your next project? Let&apos;s establish a connection
@@ -42,7 +44,7 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
         {!isCollapsed && (
           <div className="flex flex-col lg:grid lg:grid-cols-2 gap-16 w-full max-w-5xl">
             {/* Contact Info */}
-            <div className="flex flex-col space-y-10">
+            <div className="flex flex-col gap-10">
               <ContactInfo data={data} />
               <SocialLinks data={data} />
             </div>
@@ -55,21 +57,18 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
         {/* Return statement */}
         <div className="flex justify-center items-center space-x-4 mt-16">
           <p>
-            <span className="text-gray-400 text-xl md:text-2xl font-mono">
+            <span className="text-primary-blue text-xl md:text-2xl font-mono">
               return
             </span>
             <span> </span>
-            <span className="text-primary-blue text-xl md:text-2xl font-mono">
-              client.connect()
+            <span className="text-white text-xl md:text-2xl font-mono">
+              client.connect
             </span>
-            <span className="text-gray-400 text-xl md:text-2xl font-mono">
-              ;
+            <span className="text-primary-blue text-xl md:text-2xl font-mono">
+              ();
             </span>
           </p>
         </div>
-
-        {/* Brazil Flag */}
-        <div className="mt-8 text-3xl">🇧🇷</div>
       </div>
     </section>
   )
