@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Jhvs Development - Full Stack JavaScript Developer',
+  title: 'JHVS Development | Portfolio',
   description:
     'Professional portfolio of Jhordeym Santos - Full Stack JavaScript Developer specializing in React, Node.js, and modern web technologies. Building scalable applications with 5+ years of experience.',
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Jhordeym Santos' }],
   openGraph: {
-    title: 'Jhvs Development - Full Stack JavaScript Developer',
+    title: 'JHVS Development | Portfolio',
     description:
       'Professional portfolio showcasing full-stack JavaScript development expertise',
     url: 'https://jhvsdevelopment.com',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jhvs Development - Full Stack JavaScript Developer',
+    title: 'JHVS Development | Portfolio',
     description:
       'Professional portfolio showcasing full-stack JavaScript development expertise',
     images: ['/images/og-image.jpg'],
