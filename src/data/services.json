@@ -125,43 +125,5 @@
         "Documentation"
       ]
     }
-  ],
-  "techStack": {
-    "frontend": [
-      { "name": "React", "level": 95, "category": "framework" },
-      { "name": "Next.js", "level": 90, "category": "framework" },
-      { "name": "TypeScript", "level": 90, "category": "language" },
-      { "name": "Tailwind CSS", "level": 85, "category": "styling" },
-      { "name": "Material UI", "level": 88, "category": "library" }
-    ],
-    "backend": [
-      { "name": "Node.js", "level": 92, "category": "runtime" },
-      { "name": "NestJS", "level": 85, "category": "framework" },
-      { "name": "Java", "level": 90, "category": "language" },
-      { "name": "Spring", "level": 88, "category": "framework" },
-      { "name": "Express", "level": 90, "category": "framework" },
-      { "name": "GraphQL", "level": 87, "category": "api" },
-      { "name": "REST APIs", "level": 95, "category": "api" }
-    ],
-    "database": [
-      { "name": "PostgreSQL", "level": 85, "category": "sql" },
-      { "name": "MongoDB", "level": 82, "category": "nosql" },
-      { "name": "OracleSQL", "level": 80, "category": "sql" },
-      { "name": "MySQL", "level": 83, "category": "sql" },
-      { "name": "Redis", "level": 80, "category": "cache" },
-      { "name": "ElasticSearch", "level": 75, "category": "search" }
-    ],
-    "devops": [
-      { "name": "Docker", "level": 85, "category": "container" },
-      { "name": "AWS", "level": 80, "category": "cloud" },
-      { "name": "Kubernetes", "level": 75, "category": "orchestration" },
-      { "name": "Jenkins", "level": 78, "category": "ci-cd" }
-    ],
-    "tools": [
-      { "name": "Git", "level": 95, "category": "version-control" },
-      { "name": "Jest", "level": 85, "category": "testing" },
-      { "name": "Webpack", "level": 80, "category": "build" },
-      { "name": "VS Code", "level": 98, "category": "editor" }
-    ]
-  }
+  ]
 }

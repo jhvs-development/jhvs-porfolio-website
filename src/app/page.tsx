@@ -5,6 +5,7 @@ import {
   getPersonalData,
   getProjectsData,
   getServicesData,
+  getTechStackData,
 } from '@/utils/data'
 
 export default async function Home() {
@@ -13,15 +14,17 @@ export default async function Home() {
   const experience = await getExperienceData()
   const services = await getServicesData()
   const projects = await getProjectsData()
+  const techStack = await getTechStackData()
 
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
       <Sections
-        personalInfo={personalInfo}
         experience={experience}
-        services={services}
+        personalInfo={personalInfo}
         projects={projects}
+        services={services}
+        techStack={techStack}
       />
     </div>
   )

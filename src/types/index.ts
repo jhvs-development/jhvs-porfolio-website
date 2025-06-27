@@ -42,7 +42,6 @@ export interface ExperienceItem {
 // Services Types
 export interface ServicesData {
   services: Service[]
-  techStack: TechStack
 }
 
 export interface Service {
@@ -52,6 +51,11 @@ export interface Service {
   icon: string
   features: string[]
   technologies: string[]
+}
+
+// Tech Stack Types
+export interface TechStackData {
+  techStack: TechStack
 }
 
 export interface TechStack {
@@ -109,7 +113,6 @@ export interface ExperienceSectionProps {
 
 export interface ServicesSectionProps {
   services: Service[]
-  techStack: TechStack
 }
 
 export interface ProjectsSectionProps {

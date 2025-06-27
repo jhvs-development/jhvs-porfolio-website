@@ -1,6 +1,12 @@
 'use client'
 
-import { Experience, PersonalInfo, ProjectsData, ServicesData } from '@/types'
+import {
+  Experience,
+  PersonalInfo,
+  ProjectsData,
+  ServicesData,
+  TechStackData,
+} from '@/types'
 import { ContactSection } from './sections/ContactSection'
 import { ExperienceSection } from './sections/ExperienceSection'
 import { HeroSection } from './sections/HeroSection'
@@ -13,6 +19,7 @@ interface SectionsProps {
   experience: Experience
   services: ServicesData
   projects: ProjectsData
+  techStack: TechStackData
 }
 
 export const Sections = ({
@@ -20,6 +27,7 @@ export const Sections = ({
   experience,
   services,
   projects,
+  techStack,
 }: SectionsProps) => {
   return (
     <main className="relative flex flex-col justify-center items-center gap-1">
@@ -36,7 +44,7 @@ export const Sections = ({
       </section>
       <div className="section-separator" />
       <section id="tech-stack" className="flex">
-        <TechStackSection data={services.techStack} />
+        <TechStackSection data={techStack.techStack} />
       </section>
       <div className="section-separator" />
       <section id="projects" className="flex">
